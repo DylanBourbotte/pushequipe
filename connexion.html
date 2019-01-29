@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="Inscription.css" rel="stylesheet">
+    <title>L'appar'T</title>
+    <script src="index.js"></script>
+        <!-- Link pour la police du titre -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+    <!-- Lien pour l'animation du site -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+        <div class="headline">
+                <div class="banniere">   
+                        <a  href="https://www.facebook.com/Equipe-Simplon-Béthune-304191856895736/"><img class="logo2" src="img/fb-icon.png"></a>
+                        <a  href="https://twitter.com/BethuneSimplon?lang=fr"><img class= "logo2" src="img/twitter-icone.png"></a>
+            
+                <!-- Logo -->
+                                        <img class ="logo" src="img/logo.jpg">
+                    <div id="searchbar">
+            
+                        <!-- Titre -->
+                        <span class="title">L'appar'T <br>
+            
+                            <!-- Barre de recherche -->
+                            <form class="search" action="">
+                                <input class="champ" type="text" placeholder="Chercher votre produit...)"/>
+                                <input class="bouton" type="button" value=" " />
+                            </form>
+                        </span>
+            
+                        <!-- Phrase sous la barre de recherche -->
+                        <p Class="pe">E-commerce d'arcticles Polonais</p>
+                        
+                    </div> 
+                    
+            
+                    <!-- Menu avec les boutons  -->
+                    <ul class="tagline">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="http://lapartentreclients.forumactif.com/">Forum</a></li>
+                        <li><a href="Apropos.html">A propos de nous</a></li>
+                        <li><a href="inscription.html">S'inscrire</a></li>
+                        <li><a href="">Se connecter</a></li>
+                    </ul>
+        <div class="connexion">
+
+    <label for="pseudo">Pseudo</label><br>
+    <input type="text" name="pseudo" id="pseudo" required><br>
+    <span id="aidePseudo"></span><br>
+
+    <label for="password">MOT DE PASSE</label><br>
+            <input type="password" name="mot de passe" id="MOT DE PASS" required><br>
+            <span id="aidetel"></span></br>
+            <input type="submit" name="envoyer" value="Soumettre">
+            <input type="reset" value="Annuler">
+
+          
+        
+    </div>    
+    <script>
+            ScrollReveal().reveal('.headline')
+            ScrollReveal().reveal('.tagline', { duration: 1500, distance: '200px', origin: 'left', reset: true });
+            ScrollReveal().reveal('.logo', { duration: 2400, distance: '200px', origin: 'top', reset: true});
+            ScrollReveal().reveal('.connexion', { duration: 2400, distance: '200px', origin: 'bottom', reset: true});
+            
+
+                </script>
+</body>
+</html>

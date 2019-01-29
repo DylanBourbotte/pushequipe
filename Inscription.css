@@ -1,0 +1,205 @@
+.title {
+display: flex;
+justify-content: left;
+margin-left: 130px;
+font-size: 30px;
+font-family: 'Lobster', cursive;
+
+}
+
+body {
+background-color:#580202;
+}
+/* Banniere */
+.banniere {
+width: 100%;
+height: 190px;
+background-color: white;
+border-style: outset;
+text-align: center;
+
+
+}
+/* barre de recherche */
+.search {
+display: inline;
+}
+#searchbar{
+position:relative;
+width:1040px;
+height:auto;
+display:inline-block;
+}
+#searchbar .text{
+width:300px;
+float: right;  
+
+}
+#searchbar .champ{
+width:600px;
+height:35px;
+float:center;
+margin-left: 20px;  
+}
+/* Bouton loupe */
+#searchbar .bouton{
+background-image:url("img/loupe.png");
+width: 35px;
+height: 35px;
+padding: 0;
+border:none;
+float:center;
+}
+/* Boutons */
+ul {
+padding:0;
+margin:0;
+list-style-type:none;
+font-family: impact, fantasy;
+font-size: larger;
+margin-left: 20%;
+margin-top: 12px;
+
+}
+li {
+float:left; 
+margin-right: 40px;
+}
+ul li a {
+display:block;
+float:left;
+width:172px;
+line-height:50px; /*hauteur de l'image de fond*/
+background: url(img/bouton.png) repeat-x;
+color:white;
+text-decoration:none;
+text-align:center;
+}
+ul li a:hover {
+background: url(img/bouton2.png) repeat-x;
+color: white;
+}  
+.pe {
+font-family: 'Lobster', cursive;
+}
+/* Logo */
+.logo {
+width: 80px;
+height: 90px;
+float: left;
+margin-left: 20px;
+}
+.formu {
+float: right;
+font-family: 'Lobster', cursive;
+color: black;
+}
+.formulaire {  margin-top: 150px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: white;
+}
+.logo2 {
+float: right;
+height: 35px;
+width: 35px;
+}
+.logo2:hover ,.logo:hover {
+box-shadow: 2px 2px 2px 2px black;
+margin-top: 3px !important;
+}
+.connexion {
+margin-top: 100px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: white;
+}
+video {
+float: right;
+position: absolute;
+}
+.produit1 {
+width: 20%;
+min-height: 360px;
+background-color: white;
+border-style: inherit;
+text-align: center;
+margin-top: 150px;
+box-shadow: 2px 2px 2px 2px black;
+}
+
+.tagline {
+padding:0;
+margin:0;
+list-style-type:none;
+font-family: impact, fantasy;
+font-size: larger;
+margin-left: 20%;
+margin-top: 12px;
+
+}
+.tagline2 {
+float:left; 
+margin-right: 40px;
+
+}
+.tagline2  {
+display:block;
+float:left;
+width:172px;
+line-height:50px; /*hauteur de l'image de fond*/
+background: url(img/bouton.png) repeat-x;
+color:white;
+text-decoration:none;
+text-align:center;
+}
+.tagline, .tagline2:hover {
+background: url(img/bouton2.png) repeat-x;
+color: white;
+}  
+
+.bouton1 {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    font-family:'Lobster', cursive;
+    font-size: larger;
+    margin-left: 20%;
+    margin-top: 12px;
+
+}
+.bouton2 {
+    float:left; 
+
+    margin-bottom: 20px;
+    margin-left: 30px;
+    }
+.bouton2 {
+    display:block;
+    float:left;
+    width:132px;
+    line-height:50px; /*hauteur de l'image de fond*/
+    background: url(img/bouton3.png) repeat-x;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    margin-bottom: 5px;
+    }
+.bouton1, .bouton2:hover {
+    background: url(img/bouton4.png) repeat-x;
+    color: white;
+    }  
+
+.imageart {
+    height: 200px;
+    width: 200px;
+}
+p{
+    font-family: 'Lobster', cursive;
+    font-size: x-large;
+    color: black;
+}
+
+
+.contenu {
+    display: flex;
+    justify-content: space-around
+}

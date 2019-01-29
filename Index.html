@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>L'appar'T</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+        <!-- Link pour la police du titre -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+    <!-- Lien pour l'animation du site -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    
+        <div class="headline">
+               
+    <div class="banniere">
+            <a  href="https://www.facebook.com/Equipe-Simplon-Béthune-304191856895736/"><img class="logo2"src="fb-icon.png"></a>
+            <a  href="https://twitter.com/BethuneSimplon?lang=fr"><img class= "logo2" src="twitter-icone.png"></a>
+    <!-- Logo -->
+                            <img class ="logo" src="img/logo.jpg">
+        <div id="searchbar">
+
+            <!-- Titre -->
+            <span class="title">L'appar'T<br>
+
+                <!-- Barre de recherche -->
+                <form class="search" action="">
+                    <input class="champ" type="text" placeholder="Chercher votre produit...)"/>
+                    <input class="bouton" type="button" value=" " />
+                </form>
+            </span>
+            
+            <!-- Phrase sous la barre de recherche -->
+            <p Class="pe">E-commerce d'arcticles Polonais</p>
+            
+        </div>
+
+        <!-- Menu avec les boutons  -->
+        <ul class="tagline">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="http://lapartentreclients.forumactif.com/">Forum</a></li>
+            <li><a href="Apropos.html">A propos de nous</a></li>
+            <li><a href="inscription.html">S'inscrire</a></li>
+            <li><a href="connexion.html">Se connecter</a></li>
+        </ul>
+
+        <!-- Images cliquable -->
+        <div >
+                <a class="image1" href="ProduitsAlimentaires.html"><img src="img/legumes.jpg"/></a>
+                <a class="image2" href="Souvenirs.html"><img src="img/pays.jpg"/></a>
+                <a class="image3" href="Spiritueux.html"><img src="img/alcool.jpg"></a>
+                </div>
+
+    </div>
+   </div> 
+    <!-- Fonction pour l'animation du site -->
+    <script>
+            ScrollReveal().reveal('.headline')
+            ScrollReveal().reveal('.tagline', { duration: 1500, distance: '200px', origin: 'left', reset: true });
+            ScrollReveal().reveal('.logo', { duration: 2400, distance: '200px', origin: 'top', reset: true});
+            ScrollReveal().reveal('.image1', { duration: 2000, distance: '200px', origin: 'left', reset: true });
+            ScrollReveal().reveal('.image2', { duration: 2000, distance: '200px', origin: 'left', reset: true });
+            ScrollReveal().reveal('.image3', { duration: 2000, distance: '200px', origin: 'left', reset: true });
+           
+                </script>
+    
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,135 @@
+/* Titre */
+.title {
+    display: flex;
+    justify-content: left;
+    margin-left: 130px;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    
+}
+
+body {
+    background-color:#580202;
+    display: flex;
+}
+/* Banniere */
+.banniere {
+    width: 100%;
+    height: 159px;
+    background-color: white;
+    border-style: outset;
+    text-align: center;
+    
+
+}
+/* barre de recherche */
+.search {
+    display: inline;
+}
+#searchbar{
+    position:relative;
+    width:1040px;
+    height:auto;
+    display:inline-block;
+}
+#searchbar .text{
+    width:300px;
+    float: right;  
+    
+}
+#searchbar .champ{
+    width:600px;
+    height:35px;
+    float:center;
+    margin-left: 20px;  
+}
+/* Bouton loupe */
+#searchbar .bouton{
+    background-image:url("img/loupe.png");
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border:none;
+    float:center;
+}
+/* Boutons */
+ul {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    font-family: 'Lobster', cursive;
+    font-size: larger;
+    margin-left: 20%;
+    margin-top: 12px;
+    
+    }
+    li {
+        float:left; 
+        margin-right: 40px;
+        }
+    ul li a {
+        display:block;
+        float:left;
+        width:172px;
+        line-height:50px; /*hauteur de l'image de fond*/
+        background: url(img/bouton.png) repeat-x;
+        color:white;
+        text-decoration:none;
+        text-align:center;
+        }
+    ul li a:hover {
+        background: url(img/bouton2.png) repeat-x;
+        color: white;
+        }  
+/* Images */
+img {
+    height: 590px;
+    width: 100%;
+}
+/* Police de la phrase sous la barre de recherche */
+.pe {
+    font-family: 'Lobster', cursive;
+}
+/* Logo */
+.logo {
+    width: 80px;
+    height: 90px;
+    float: left;
+    margin-left: 20px;
+}
+.formu {
+    float: right;
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+.formulaire {
+    margin-top: 200px;
+}
+.logo2 {
+    float: right;
+    height: 35px;
+    width: 35px;
+}
+.logo2:hover ,.logo:hover {
+    box-shadow: 2px 2px 2px 2px black;
+    margin-top: 3px !important;
+}
+.texte {
+    
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+    margin-right: 20px;
+}
+video {
+    float: right;
+    margin-left: 20px;
+}
+p {
+    color: white;
+}
+.texte2 {
+    
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+    margin-right: 20px;
+}

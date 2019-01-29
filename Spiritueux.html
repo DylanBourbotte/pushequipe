@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="Inscription.css" rel="stylesheet">
+    <title>L'appar'T</title>
+    <script src="index.js"></script>
+        <!-- Link pour la police du titre -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+    <!-- Lien pour l'animation du site -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    
+        <div class="headline">
+                <div class="banniere">   
+                        <a  href="https://www.facebook.com/Equipe-Simplon-Béthune-304191856895736/"><img class="logo2"src="fb-icon.png"></a>
+                        <a  href="https://twitter.com/BethuneSimplon?lang=fr"><img class= "logo2" src="twitter-icone.png"></a>
+            
+                <!-- Logo -->
+                                        <img class ="logo" src="img/logo.jpg">
+                    <div id="searchbar">
+            
+                        <!-- Titre -->
+                        <span class="title">L'appar'T <br>
+            
+                            <!-- Barre de recherche -->
+                            <form class="search" action="">
+                                <input class="champ" type="text" placeholder="Chercher votre produit...)"/>
+                                <input class="bouton" type="button" value=" " />
+                            </form>
+                        </span>
+            
+                        <!-- Phrase sous la barre de recherche -->
+                        <p Class="pe">E-commerce d'arcticles Polonais</p>
+                        
+                    </div> 
+                    
+            
+                    <!-- Menu avec les boutons  -->
+                    <ul class="tagline">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="http://lapartentreclients.forumactif.com/">Forum</a></li>
+                        <li><a href="Apropos.html">A propos de nous</a></li>
+                        <li><a href="inscription.html">S'inscrire</a></li>
+                        <li><a href="">Se connecter</a></li>
+                    </ul>
+
+                </div>
+                <div class="contenu">
+                    <div class="produit1">
+                        <img class="imageart" src="img/Vodka.png">
+                        <p>Vodla Spyritus</p>
+                        <ul class="bouton1">
+                        <li ><a class="bouton2" href="">10euros</a></li>
+                        </ul>
+                    </div>
+                    <div class="produit1">
+                        <img class="imageart" src="img/Digestif.png">
+                        <p>Digestif Soplica Staropolska</p>
+                            <ul class="bouton1">
+                            <li ><a class="bouton2" href="">80 euros</a></li>
+                            </ul>
+                    </div>
+                    <div class="produit1">
+                        <img class="imageart" src="img/Biere.jpg">
+                        <p>Bière pin-up</p>
+                            <ul class="bouton1">
+                            <li ><a class="bouton2" href="">3 euros</a></li>
+                            </ul>
+                    </div>
+
+                </div>
+                    
+                    <script>
+
+var age = prompt ("Quel est votre âge ?");
+
+if (age >18){
+    alert("Vous êtes autoriser a rentrer dans cette section, bon achat :)");
+    
+    }else if (age < 18){
+    alert("Vous n'êtes pas autoriser a rentrer dans cette section, veuillez la quitter.");
+    window.location = "index.html";
+    
+    }else if (age = 18){
+    alert("Vous avez tout juste l'âge requis, bon achat :)");
+
+    } 
+    ScrollReveal().reveal('.headline')
+            ScrollReveal().reveal('.tagline', { duration: 1500, distance: '200px', origin: 'left', reset: true });
+            ScrollReveal().reveal('.logo', { duration: 2400, distance: '200px', origin: 'top', reset: true});
+            ScrollReveal().reveal('.produit1', { delay: 1000, duration: 3000, distance: "1000px", origin: "right", reset: true}, 100);
+
+                            
+                                </script>
+</body>
+</html>

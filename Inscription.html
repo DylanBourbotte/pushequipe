@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="Inscription.css" rel="stylesheet">
+    <title>L'appar'T</title>
+    <script src="index.js"></script>
+        <!-- Link pour la police du titre -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+    <!-- Lien pour l'animation du site -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+        
+                <div class="headline">
+            <div class="banniere">   
+                    <a  href="https://www.facebook.com/Equipe-Simplon-Béthune-304191856895736/"><img class="logo2"src="img/fb-icon.png"></a>
+                    <a  href="https://twitter.com/BethuneSimplon?lang=fr"><img class= "logo2" src="img/twitter-icone.png"></a>
+        
+            <!-- Logo -->
+                                    <img class ="logo" src="img/logo.jpg">
+                <div id="searchbar">
+        
+                    <!-- Titre -->
+                    <span class="title">L'appar'T <br>
+        
+                        <!-- Barre de recherche -->
+                        <form class="search" action="">
+                            <input class="champ" type="text" placeholder="Chercher votre produit...)"/>
+                            <input class="bouton" type="button" value=" " />
+                        </form>
+                    </span>
+        
+                    <!-- Phrase sous la barre de recherche -->
+                    <p Class="pe">E-commerce d'arcticles Polonais</p>
+                    
+                </div> 
+                
+        
+                <!-- Menu avec les boutons  -->
+                <ul class="tagline">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="http://lapartentreclients.forumactif.com/">Forum</a></li>
+                    <li><a href="Apropos.html">A propos de nous</a></li>
+                    <li><a href="inscription.html">S'inscrire</a></li>
+                    <li><a href="connexion.html">Se connecter</a></li>
+                </ul>
+    
+  <div class="formulaire">
+    <form>
+ 
+        <label for="pseudo">Pseudo</label>
+            <input type="text" name="pseudo" id="pseudo" required>
+            <span id="aidePseudo"></span><br><br>
+
+        <label for="nom">  nom</label>
+            <input type="text" name="nom" id="nom" required>
+            <span id="aidenom"></span><br><br>
+
+        <label for="prenom"> prenom</label>
+            <input type="text" name="prenom" id="prenom" required>
+            <span id="aideprenom"></span><br><br>
+    
+        <label for="email">adresse mail</label> 
+            <input type="mail" name="email" id="email" required>
+            <span id="aideemail"></span><br><br>
+
+            <label for="password">MOT DE PASSE</label>
+            <input type="password" name="mot de passe" id="MOT DE PASS" required><br>
+            <span id="aidetel"></span></br>
+    
+        <label for="tel">telephone</label>
+            <input type="tel" name="telephone" id="tel" required>
+            <span id="aidetel"></span><br><br>
+
+        <label for="date">date de naissance</label>
+            <input type="date" name="date de naissance" id="date" required><br>
+        
+            <input type="submit" name="envoyer" value="Soumettre">
+            <input type="reset" value="Annuler">
+
+    </form>
+    
+    </div>
+    <script>
+           ScrollReveal().reveal('.headline')
+            ScrollReveal().reveal('.tagline', { duration: 1500, distance: '200px', origin: 'left', reset: true });
+            ScrollReveal().reveal('.logo', { duration: 2400, distance: '200px', origin: 'top', reset: true});
+            ScrollReveal().reveal('#pseudo', { duration: 1400, distance: '200px', origin: 'right', reset: true});
+            ScrollReveal().reveal('#nom', { duration: 1400, distance: '200px', origin: 'top', reset: true});
+            ScrollReveal().reveal('#prenom', { duration: 1400, distance: '200px', origin: 'left', reset: true});
+            ScrollReveal().reveal('#email', { duration: 1400, distance: '200px', origin: 'bottom', reset: true});
+            ScrollReveal().reveal('#MOT DE PASS', { duration: 1400, distance: '200px', origin: 'top', reset: true});
+            ScrollReveal().reveal('#tel', { duration: 1400, distance: '200px', origin: 'bottom', reset: true});
+            ScrollReveal().reveal('#date', { duration: 1400, distance: '200px', origin: 'right', reset: true});
+            ScrollReveal().reveal('.formulaire', { duration: 1400, distance: '400px', origin: 'bottom', reset: true});
+
+                </script>
+
+<script src="index.js"></script>
+</body>
+</html>
