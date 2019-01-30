@@ -203,3 +203,8 @@ p{
     display: flex;
     justify-content: space-around
 }
+
+.product { 
+    background: url("img/Kapusniak.jpg");
+    top: 50%;
+}
